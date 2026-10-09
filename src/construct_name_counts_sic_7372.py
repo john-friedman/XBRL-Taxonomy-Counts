@@ -1,5 +1,6 @@
 from datamulehub import databases
 
+# $0.1048 as of 10/9/2026
 databases.query(
     """
     SELECT x.name, COUNT(*) AS count
